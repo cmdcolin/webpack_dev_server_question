@@ -30,4 +30,24 @@ Then cd back to bbi-js
     yarn build
 
 
-This causes the webpack-dev-server to fail with the file not found error on @gmod/bbi
+This causes the webpack-dev-server to fail with the file not found error on @gmod/bbiA
+
+
+## Error
+
+```
+ERROR in ../src/gmod/bbi-js/dist/index.js
+Module build failed: Error: ENOENT: no such file or directory, open '/home/cdiesh/src/gmod/bbi-js/dist/index.js'
+ @ ./src/index.js 1:0-32
+ @ multi (webpack)-dev-server/client?http://localhost:8080 ./src
+ℹ ｢wdm｣: Failed to compile.
+
+```
+
+
+## Env
+
+Node v10.15.0
+webpack-dev-server 3.1.14
+webpack 4.29.0
+
