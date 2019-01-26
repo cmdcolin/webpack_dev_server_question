@@ -6,6 +6,12 @@ When I use this app under webpack_dev_server and with an `npm linked` module it 
 
 ## Setup
 
+    git clone git@github.com:cmdcolin/webpack_dev_server_question
+    cd webpack_dev_server_question
+    yarn
+
+Then clone bbi-js
+
     git clone git@github.com:gmod/bbi-js
     cd bbi-js
     yarn
@@ -13,7 +19,7 @@ When I use this app under webpack_dev_server and with an `npm linked` module it 
     yarn link
 
 
-Then cd into this dir
+Then cd back to webpack_dev_server_question
 
     yarn link @gmod/bbi
     npx webpack-dev-server
